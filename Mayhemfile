@@ -1,0 +1,7 @@
+project: mayhem-cmake-example
+target: fuzzme
+
+image: ghcr.io/vagi8/mayhem-cmake-example :latest
+
+cmds:
+  - cmd: /fuzzme
